@@ -1,0 +1,27 @@
+# 构建产物
+build/
+app/build/
+.gradle/
+.kotlin/
+local.properties
+
+# 本地打包产物（APK、预览截图）
+dist/
+
+# 本地构建环境（JDK / Android SDK / Gradle 缓存）
+.toolchain/
+
+# IDE
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 签名文件
+*.jks
+*.keystore
+
+# 系统
+.DS_Store
+Thumbs.db

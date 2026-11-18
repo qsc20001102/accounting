@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">记账</string>
+    <string name="widget_title">今日收支</string>
+    <string name="widget_description">在桌面一行显示今天的支出、收入与结余</string>
+    <string name="widget_expense">支出</string>
+    <string name="widget_income">收入</string>
+    <string name="widget_net">结余</string>
+</resources>

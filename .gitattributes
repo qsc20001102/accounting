@@ -1,0 +1,12 @@
+# 统一换行：源码用 LF，批处理脚本保留 CRLF，避免 gradlew 在 WSL/macOS 上因为 CRLF 跑不起来。
+* text=auto eol=lf
+
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+*.jar binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.apk binary
